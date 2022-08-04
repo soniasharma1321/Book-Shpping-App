@@ -1,0 +1,37 @@
+<!--
+<button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add Books
+</button>&nbsp;&nbsp; -->
+<nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <h3>Your WishList Of Books</h3>
+  </div>
+</nav>
+
+
+<table class="table mt-4">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Fav. Book Name</th>
+      <th scope="col">Pages</th>
+       <th scope="col">Author</th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <ng-container *ngFor="let student of studentData">
+
+
+    <tr *ngIf="student.wishlist">
+      <td>{{student.id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.roll}}</td>
+      <td>{{student.email}}</td>
+
+
+    </tr>
+  </ng-container>
+  </tbody>
+</table>

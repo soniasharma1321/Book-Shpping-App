@@ -1,0 +1,63 @@
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <h1 style="color: black;">Magic Of Books</h1>
+    
+    <div class="d-flex">
+     &nbsp;&nbsp;
+      <button class="navbar navbar-dark bg-dark mx-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: white; " id="booklist"routerLink="/viewlist">
+        Book List
+      </button>
+      <button style="background-color: darkred; color: white;" routerLink="/login" type="button" class="btn-btn-danger mx-2">
+        Log Out
+      </button>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div style="color: white;" class="text-center">
+          <h1>Registration</h1>
+          <h6>Please Register Yourself!!</h6>
+
+        </div>
+        <form>
+          <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+            <!-- <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div> -->
+            <div style="color: white;" class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Full Name</label>
+              <input formControlName="fullname" type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div style="color: white;" class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+              <input formControlName="mobile" type="tel" class="form-control" id="exampleInputPassword1">
+            </div>
+
+
+            <div style="color: white;" class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div  id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div style="color: white;" class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-3">Sign Up</button>
+          </form>
+          <a style="color: white; margin-top: 20px;" routerLink="/login">Already Registered? Click to Login</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

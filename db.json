@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "THE WINGS OF FIRE",
+      "roll": 107,
+      "email": "A.P.J ABDUL KALAM",
+      "mobile": "",
+      "salary": "",
+      "wishlist": false
+    },
+    {
+      "id": 2,
+      "name": "TIME MACHINE",
+      "roll": 879,
+      "email": "H.G.WELLS",
+      "mobile": "",
+      "salary": "",
+      "wishlist": false
+    },
+    {
+      "id": 3,
+      "name": "A PASSAGE TO INDIA",
+      "roll": 458,
+      "email": "E.M.FORSTER",
+      "mobile": null,
+      "salary": null,
+      "wishlist": true
+    },
+    {
+      "id": 4,
+      "name": "UTOPIA",
+      "roll": 257,
+      "email": "SIR THOMAS MOOR",
+      "mobile": null,
+      "salary": null,
+      "wishlist": true
+    },
+    {
+      "id": 5,
+      "name": "CHITRA",
+      "roll": 1254,
+      "email": "R.N.TAGORE",
+      "mobile": null,
+      "salary": null,
+      "wishlist": true
+    },
+    {
+      "id": 6,
+      "name": "BISARJAN",
+      "roll": 784,
+      "email": "R.N.TAGORE",
+      "mobile": null,
+      "salary": null,
+      "wishlist": false
+    },
+    {
+      "id": 7,
+      "name": "ANIMAL FARM",
+      "roll": 201,
+      "email": "GEORGE ORWELL",
+      "mobile": null,
+      "salary": null,
+      "wishlist": false
+    },
+    {
+      "id": 8,
+      "name": "BEN HUR",
+      "roll": 78,
+      "email": "LEWIS WALLACE",
+      "mobile": null,
+      "salary": null,
+      "wishlist": false
+    },
+    {
+      "id": 9,
+      "name": "BABURNAMA",
+      "roll": 524,
+      "email": "BABUR",
+      "mobile": null,
+      "salary": null,
+      "wishlist": false
+    },
+    {
+      "id": 10,
+      "name": "ARTHASASTRA",
+      "roll": 325,
+      "email": "KAUTILYA",
+      "mobile": null,
+      "salary": null,
+      "wishlist": true
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "sonia",
+      "email": "sonia@123",
+      "password": "1234",
+      "mobile": "7988 130597",
+      "id": 9
+    },
+    {
+      "fullname": "sonia",
+      "email": "sonia@gmail.com",
+      "password": "123",
+      "mobile": 233424,
+      "id": 1
+    },
+    {
+      "fullname": "so",
+      "email": "son@gmail.com",
+      "password": "123",
+      "mobile": 876,
+      "id": 2
+    },
+    {
+      "fullname": "aa",
+      "email": "abbb@gmail.com",
+      "password": "123",
+      "mobile": 33444,
+      "id": 3
+    },
+    {
+      "fullname": "pw",
+      "email": "pw@gmail.com",
+      "password": "12",
+      "mobile": 2,
+      "id": 4
+    },
+    {
+      "fullname": "qqq",
+      "email": "qqqq@gmail.com",
+      "password": "12",
+      "mobile": 22,
+      "id": 5
+    },
+    {
+      "fullname": "soo",
+      "email": "acd@gmail.com",
+      "password": "123",
+      "mobile": 8336084169,
+      "id": 6
+    },
+    {
+      "fullname": "sonnn",
+      "email": "bcd@gmail.com",
+      "password": "123",
+      "mobile": 8336084169,
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

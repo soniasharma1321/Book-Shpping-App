@@ -1,0 +1,29 @@
+.card{
+  margin-top: 117px;
+  border: none;
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: hsla(205, 46%, 30%, 1);
+  background: linear-gradient(90deg,hsla(205, 46%, 30%, 1)0%,hsla(260,29%,36%,1)100%);
+  color: #ffff;
+}
+a{
+  color: #ffff;
+  margin-top: 5px;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(216, 225, 225);
+}
+.d-flex button:hover{
+    color: #333;
+}
+.d-flex #booklist:hover{
+    background-color: #333;
+    color: white;
+}
